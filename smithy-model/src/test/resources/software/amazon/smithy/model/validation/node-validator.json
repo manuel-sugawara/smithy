@@ -269,7 +269,7 @@
                 "defaultedInt": {
                     "target": "smithy.api#Integer",
                     "traits": {
-                        "smithy.api#default": {}
+                        "smithy.api#default": 0
                     }
                 },
                 "requiredInt": {

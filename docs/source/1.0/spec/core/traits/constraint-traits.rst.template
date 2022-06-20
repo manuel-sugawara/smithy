@@ -466,15 +466,13 @@ of the targeted numeric shape to which it is applied.
 
 Summary
     Marks a structure member as required, meaning a value for the member MUST
-    be present and not set to ``null``.
+    be provided.
 Trait selector
     ``structure > member``
 
     *Member of a structure*
 Value type
     Annotation trait.
-Conflicts with
-    :ref:`default-trait`
 
 .. important:: The required trait isn't just for inputs
 
@@ -491,7 +489,7 @@ Conflicts with
 
 .. seealso::
 
-   * :ref:`structure-nullability`
+   * :ref:`structure-optionality`
    * :ref:`default-trait`
    * :ref:`clientOptional-trait`
    * :ref:`input-trait`
